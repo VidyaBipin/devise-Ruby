@@ -100,6 +100,14 @@ Devise.setup do |config|
 
   # Regex to use to validate the email address
   # config.email_regexp = /^([\w\.%\+\-]+)@([\w\-]+\.)+([\w]{2,})$/i
+  
+  # Password complexity configuration
+  # config.password_complexity = {
+  #   require_upper: false,    
+  #   require_lower: false,    
+  #   require_digit: false,   
+  #   special_characters: "!?@#$%^&*()_+-=[]{}|:;<>,./"
+  # }
 
   # ==> Configuration for :timeoutable
   # The time you want to timeout the user session without activity. After this
